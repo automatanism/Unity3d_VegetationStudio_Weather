@@ -16,21 +16,7 @@ namespace AwesomeTechnologies.VegetationSystem
 		
 		//general
 		public GameObject RAIN_FX_FACTORY;
-		
-		//vegetation studio
-		public WindZone WindZone_Normal;
-		public WindZone WindZone_Storm;
-		public VegetationSystemPro vsp;
-		public enum WIND_MODES { NORMAL, STORMY };
-		private WIND_MODES currentWindMode;
-		
-		
-		//Aura stuff
-		public Aura2API.AuraBaseSettings Aura_Extortionist_Normal;
-		public Aura2API.AuraBaseSettings Aura_Extortionist_Stormy;
-		public Camera globalCamera;
-		private Aura2API.AuraCamera auraCamera;
-		
+
 		
 		//thunder/rain (local to player)
 		public GameObject ThirdPersonController;
@@ -50,7 +36,21 @@ namespace AwesomeTechnologies.VegetationSystem
 		public GameObject globalCameraAsObj;
 		private GameObject GlobalNatureAmbienceMusic;
 		
-
+		
+		//vegetation studio
+		public WindZone WindZone_Normal;
+		public WindZone WindZone_Storm;
+		public VegetationSystemPro vsp;
+		public enum WIND_MODES { NORMAL, STORMY };
+		private WIND_MODES currentWindMode;
+		
+		
+		//Aura stuff
+		public Aura2API.AuraBaseSettings Aura_Extortionist_Normal;
+		public Aura2API.AuraBaseSettings Aura_Extortionist_Stormy;
+		public Camera globalCamera;
+		private Aura2API.AuraCamera auraCamera;
+		
 		
 		void Start ( )
 		{
